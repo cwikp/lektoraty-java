@@ -1,6 +1,6 @@
 package lab1;
 
-public class ClassSimpleExample {
+public class SimpleClassExample {
 
     String name = "Java";
     int year = 2019;
@@ -16,12 +16,12 @@ public class ClassSimpleExample {
     }
 
     public static void main(String[] args) {
-        ClassSimpleExample simpleExample = new ClassSimpleExample();
+        SimpleClassExample simpleExample = new SimpleClassExample();
         simpleExample.hello();
 
         System.out.println(simpleExample.name);
         System.out.println(simpleExample.year);
 
-        ClassSimpleExample.staticHello();
+        SimpleClassExample.staticHello();
     }
 }
