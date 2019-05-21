@@ -5,6 +5,8 @@ public class Loops {
     public static void main(String[] args) {
 
         System.out.println("Before while loop...");
+        String test = "some value";
+
         int i = 0;
 
         while (i < 10) {
@@ -18,6 +20,7 @@ public class Loops {
         for (int j = 0; j< 10; j++){
             System.out.println("Looping! Value of j: " + j);
         }
+
         System.out.println("...after for loop.");
     }
 }
